@@ -1,0 +1,58 @@
+{
+	"parent": "minecraft:recipes/root",
+	"criteria": {
+		"has_helmet": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "minecraft:leather_helmet"
+					}
+				]
+			}
+        },
+        "has_chestplate": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "minecraft:leather_chestplate"
+					}
+				]
+			}
+        },
+        "has_leggings": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "minecraft:leather_leggings"
+					}
+				]
+			}
+        },
+        "has_boots": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "minecraft:leather_boots"
+					}
+				]
+			}
+		}
+	},
+	"requirements": [
+		[
+            "has_helmet", "has_chestplate", "has_leggings", "has_boots"
+        ]
+	],
+	"rewards": {
+		"recipes": [
+            "deconstructing:leather_boots",
+            "deconstructing:leather_helmet",
+            "deconstructing:leather_chestplate",
+            "deconstructing:leather_leggings"
+        ]
+	}
+}

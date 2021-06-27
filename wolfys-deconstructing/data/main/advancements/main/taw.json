@@ -1,0 +1,27 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:wolf_spawn_egg"
+        },
+        "title": {
+            "text": "Wolfy's Package",
+            "bold": true,
+            "color": "gold"
+        },
+        "description": {
+            "text": "All datapacks by Wolfy",
+            "color": "white",
+            "bold": false,
+            "italic": true
+        },
+        "background": "minecraft:textures/block/black_concrete.png",
+        "show_toast": false,
+        "announce_to_chat": false,
+        "frame": "challenge"
+    },
+    "criteria": {
+        "tick": {
+            "trigger": "minecraft:tick"
+        }
+    }
+}
