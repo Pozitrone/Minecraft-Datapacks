@@ -1,0 +1,25 @@
+{
+	"parent": "minecraft:recipes/root",
+	"criteria": {
+		"has_spidereye": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "minecraft:spider_eye"
+					}
+				]
+			}
+		}
+	},
+	"requirements": [
+		[
+			"has_spidereye"
+		]
+	],
+	"rewards": {
+		"recipes": [
+            "easy_crafting:fermented_spider_eye"
+        ]
+	}
+}

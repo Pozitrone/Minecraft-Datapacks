@@ -1,0 +1,25 @@
+{
+	"parent": "minecraft:recipes/root",
+	"criteria": {
+		"has_sticks": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "minecraft:stick"
+					}
+				]
+			}
+		}
+	},
+	"requirements": [
+		[
+			"has_sticks"
+		]
+	],
+	"rewards": {
+		"recipes": [
+            "easy_crafting:repeater"
+        ]
+	}
+}

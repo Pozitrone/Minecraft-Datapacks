@@ -1,0 +1,25 @@
+{
+	"parent": "minecraft:recipes/root",
+	"criteria": {
+		"has_boneblock": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "minecraft:bone_block"
+					}
+				]
+			}
+		}
+	},
+	"requirements": [
+		[
+			"has_boneblock"
+		]
+	],
+	"rewards": {
+		"recipes": [
+            "easy_crafting:bone"
+        ]
+	}
+}
