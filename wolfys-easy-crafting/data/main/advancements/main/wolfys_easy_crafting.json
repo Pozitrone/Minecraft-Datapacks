@@ -1,0 +1,28 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:crafting_table"
+        },
+        "title": {
+            "text": "Wolfy's Easy Crafting",
+            "color": "white",
+            "bold": false,
+            "italic": false
+        },
+        "description": {
+            "text": "Multiple simplified recipes",
+            "color": "green",
+            "bold": false,
+            "italic": true
+        },
+        "show_toast": false,
+        "announce_to_chat": false,
+        "frame": "goal"
+    },
+    "parent": "main:main/taw",
+    "criteria": {
+        "tick": {
+            "trigger": "minecraft:tick"
+        }
+    }
+}

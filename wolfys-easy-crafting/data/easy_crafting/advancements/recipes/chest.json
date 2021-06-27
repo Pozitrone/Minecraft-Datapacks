@@ -1,0 +1,25 @@
+{
+	"parent": "minecraft:recipes/root",
+	"criteria": {
+		"has_log": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item":"minecraft:stick"
+					}
+				]
+			}
+		}
+	},
+	"requirements": [
+		[
+			"has_log"
+		]
+	],
+	"rewards": {
+		"recipes": [
+            "easy_crafting:chest"
+        ]
+	}
+}

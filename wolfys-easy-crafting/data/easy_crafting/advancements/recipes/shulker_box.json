@@ -1,0 +1,25 @@
+{
+	"parent": "minecraft:recipes/root",
+	"criteria": {
+		"has_shulkershell": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "minecraft:shulker_shell"
+					}
+				]
+			}
+		}
+	},
+	"requirements": [
+		[
+			"has_shulkershell"
+		]
+	],
+	"rewards": {
+		"recipes": [
+            "easy_crafting:shulker_box"
+        ]
+	}
+}
