@@ -1,0 +1,25 @@
+{
+	"parent": "minecraft:recipes/root",
+	"criteria": {
+		"has_sapling": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item":"minecraft:campfire"
+					}
+				]
+			}
+		}
+	},
+	"requirements": [
+		[
+			"has_sapling"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"hard_to_obtain:dead_bush"
+		]
+	}
+}

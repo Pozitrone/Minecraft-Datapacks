@@ -1,0 +1,25 @@
+{
+	"parent": "minecraft:recipes/root",
+	"criteria": {
+		"has_bonemeal": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "minecraft:bone_meal"
+					}
+				]
+			}
+        }
+	},
+	"requirements": [
+		[
+            "has_bonemeal"
+		]
+	],
+	"rewards": {
+		"recipes": [
+            "hard_to_obtain:mycelium"
+        ]
+	}
+}
